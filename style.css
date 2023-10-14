@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 25px;
+    background-image: url("bgc.jpg");
+    
+}
+
+h1{
+    color: blue;
+}
+
+.card{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid aquamarine;
+    background-color: blue;
+   gap: 15px; 
+}
+
+p{
+    color: aquamarine;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border: none;
+    border-radius:15px ;
+    color: blue;
+}
+
+.dis{
+    color: blue;
+}
